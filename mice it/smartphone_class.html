@@ -1,0 +1,19 @@
+<script>
+function Car(model, year){
+
+    this.SEAT_COUNT = 5;
+
+    this.model = model;
+    this.year = year;
+
+    this.start=function(){
+        console.log('start');
+    };
+
+}
+
+var car = new Car('k5', 2012);
+car.start = function(){
+    console.log('start');
+};
+</script>
