@@ -1,0 +1,105 @@
+<html>
+<style>
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button
+	{
+	margin: 0;
+	padding: 0
+}
+
+fieldset,img {
+	border: 0 none
+}
+
+dl,ul,ol,menu,li {
+	list-style: none
+}
+
+blockquote,q {
+	quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none
+}
+
+input,select,textarea,button {
+	vertical-align: middle
+}
+
+body {
+	background: #fff
+}
+
+body,th,td,select,textarea,button {
+	font-size: 12px;
+	line-height: 1.5;
+	font-family: '돋움', dotum, sans-serif;
+	color: #333
+} /* color값은 디자인가이드에 맞게사용 */
+a {
+	color: #333;
+	text-decoration: none
+}
+
+a:active,a:hover {
+	text-decoration: underline
+}
+
+address,caption,cite,code,dfn,em,var {
+	font-style: normal;
+	font-weight: normal
+}
+
+.hide {
+	display: none
+}
+
+#wrap {
+	float: left;
+	width: 270px;
+	height: 340px;
+}
+
+#tit {
+	float: left;
+	width: 270px;
+	height: 30px;
+}
+
+#foot {width: 270px;
+	height: 30px;
+	float: left;
+}
+
+#btns {
+	float: left;
+	margin-left:43%;
+}
+
+li {
+	float: left;
+	margin: 5px 17px 5px 17px;
+	width: 100px;
+	height: 120px;
+}
+</style>
+
+<div id="wrap">
+	<div id="tit">오늘의 사진</div>
+	<div id="elet"></div>
+	<div id="foot">
+		<div id="btns">
+			<button id="nextBtn"><</button>1/2
+			<button id="nextBtn2">></button>
+		</div>
+
+	</div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="photo.js"></script>
+
+</html>
